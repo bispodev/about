@@ -1,0 +1,103 @@
+/* Configurações geral */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #f5f5f5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+/* Parte informacional sobre o João Gustavo */
+
+.my-info {
+    margin-top: 20px;
+}
+
+.my-info p {
+    font-size: 18px;
+}
+
+
+/* Parte sobre as informações extra (Filmes/Programas e Aulas)*/
+.info-extra {
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.info-extra h2 {
+    background-color: #e0dddd;
+    width: 100%;
+}
+
+/* Parte sobre os filmes/programas */
+.info-extra .my-movies {
+    margin-top: 10px;
+}
+
+.info-extra .my-movies ul {
+    margin: 10px 0 10px;
+    font-size: 20px;
+}
+
+.info-extra .my-movies ul li {
+    margin: 10px;
+}
+
+/* Parte sobre as aulas */
+.info-extra .my-classes ul {
+    padding: 10px 5%;
+    font-size: 20px;
+    text-align: justify;
+    list-style: square;
+}
+
+/* Parte sobre feliz e triste */
+.feliz_triste {
+    margin-top: 15px;
+}
+
+.feliz_triste .imagem {
+    margin-top: 15px;
+    height: 150px;
+    background-image: url("https://image.flaticon.com/icons/png/512/64/64680.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 10px;
+    margin-left: 2%;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
