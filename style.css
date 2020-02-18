@@ -33,7 +33,8 @@ a:hover {
 /* Parte informacional sobre o João Gustavo */
 
 .my-info {
-    margin-top: 20px;
+    margin: 20px;
+    text-align: center;
 }
 
 .my-info p {
